@@ -10,7 +10,7 @@ A handy minimap sidebar is also included for the user to easily visualize where 
 
 This proof of concept has been demonstrated to dozens law students and lawyers. 100% of them said that they would use it if a production quality version was released. Many also said they would be willing to pay for the use of ImportantBits (although we intend to release it free of charge). The initial target demographic would be law students and those in the legal industry.
 
-At the moment the extension only works on CanLii but thanks to flexible backend designt, it can quickly be generalized to virtually any case website.
+At the moment the extension only works on CanLii but thanks to flexible backend design, it can quickly be generalized to virtually any case website.
 
 # INSTALLATION OF DEMO
 
