@@ -61,7 +61,7 @@ function queryServer(NeutralCitation){
     success: function(response) {
       //CHRIS'S CODE//
       responseHandler(response);
-      xivmap();
+      //xivmap();
     },
     error: function() {
       console.log("There was an error processing your request. Please try again.")
