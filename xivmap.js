@@ -566,4 +566,4 @@ var padThai = document.createElement("div");
 padThai.className = "xivmap top-right slide-in";
 document.body.appendChild(padThai);
 console.log("from xivmap")
-setTimeout(function(){xivmap()},4000); // THIS FIXES THE RACE CONDITION OF minimap appearing before the highlights go in
+setTimeout(function(){xivmap()},5000); // THIS FIXES THE RACE CONDITION OF minimap appearing before the highlights go in

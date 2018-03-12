@@ -36,13 +36,13 @@ function highlightParagraph(index, color, opacity){
 	if(index > GlobalParas.length || index < 1) {return;} // trash bad paragraph numbers
 	opacity = opacity/10;
   var paraElement = getParaByIndex(index);
-  var rgbcolor = "white";
+  var rgbcolor = "rgba(0,255,0," + opacity + ")";/*
   if(color == "red"){
   	rgbcolor = "rgba(255,0,0," + opacity + ");"
   }
   if(color == "green"){
   	rgbcolor = "rgba(0,255,0," + opacity + ");"
-  }
+  }*/
   paraElement.setAttribute("style", "background:"+rgbcolor);
   paraElement.id = color;
 }
@@ -61,6 +61,7 @@ function queryServer(NeutralCitation){
     success: function(response) {
       //CHRIS'S CODE//
       responseHandler(response);
+      xivmap();
     },
     error: function() {
       console.log("There was an error processing your request. Please try again.")
