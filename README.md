@@ -1,5 +1,15 @@
 # ImportantBitsExtension
 
+# DESCRIPTION
+
+ImportantBits is a Chrome Extension that will highlight the most important paragraphs in a case. It communicates with a backend database that has cached data on the importance of each paragraph in the case that you are currently viewing.
+
+To discover the most important paragraphs, the backend is designed to automatically discover all the cases that have cited the case that the user is currently viewing. The backend will then identify the exact paragraph that is cited and keep an importance score. The higher the importance (determined by the number of times a particular paragraph is cited in other cases) of a paragraph, the bolder the highlight will appear.
+
+A handy minimap sidebar is also included for the user to easily visualize where the highlights appear in the case.
+
+# INSTALLATION OF DEMO
+
 Identify the important bits of a case, using citation information and sentiment analysis.
 
 Watson and AI will be used to assess the sentiment.
